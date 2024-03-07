@@ -1,0 +1,81 @@
+.mainDiv {
+    width: 97.8vw;
+    height: 98.7vh;
+    background-color: rgb(152, 162, 197);
+}
+
+ .tab {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.plus-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff; 
+    color: white;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 40px; 
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease; 
+    margin-left: 40px;
+}
+
+.plus-button:hover {
+    background-color: #0056b3; 
+}
+.tab-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+}
+.active {
+    display: block;
+}
+.iframe-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 29px;
+}
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+#inputField1,.tab-content input[type="text"] {
+    width: 200px; 
+    height: 30px;
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    color: #333; 
+    background-color: #f7f7f7; 
+    
+  }
+
+  #btn,.tab-content button[type="submit"] {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px;
+  }
+  
+  .tab-content button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  #btn:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="mainDiv">
+        <div id="tabs">
+            <div class="tab" id="tab1" onclick="openTab('tab1')">Tab 1 <span class="plus-button" onclick="removeTab('tab1', event)">x</span></div>
+            <span class="plus-button" onclick="addNewTab()">+</span>
+        </div>
+    
+        <div id="tab1Content" class="tab-content active">
+            <form id="formTab1" onsubmit="submitForm(event, 'tab1')">
+                <label for="inputField1">Input Field:</label>
+                <input type="text" id="inputField1" name="inputField1">
+                <button id="btn" type="submit">Submit</button>
+            </form>
+            <div class="iframe-container">
+                <iframe id="iframeTab1" src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
